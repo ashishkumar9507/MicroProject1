@@ -1,5 +1,10 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
 body{
     background-color: rgb(240, 200, 151);
+    padding: 0px;
 }
 .header{
     display: flex;
@@ -10,6 +15,7 @@ body{
     
 }
 .leftHeader{
+    margin-top: 25px;
     width: 50%;
     margin-left: 70px;
     padding: 10px;
@@ -37,23 +43,27 @@ h6{
 }
 img{
     margin-left: 100px;
-    height: 70%;
+    height: 500px;
     padding-left: 18px;
-    margin-top: 25px;
+    margin-top: 0px;
 }
 input{
-    
+    width: 15rem;
     padding: 5px;
 }
 #reg{
     background-color: black;
     color: white;
+    width: 12rem;
+    padding-left: 5px;
 }
 
 .footer-part{
     background-color: black;
     height: 30vh;
     margin: 0px;
+    width: 100vw;
+    padding-left: 0px;
 }
 
 .footer{
@@ -71,4 +81,7 @@ li img{
     height:18px ;
     padding: 0px;
     margin: 0px;
+}
+#rt {
+    text-align: right;
 }
